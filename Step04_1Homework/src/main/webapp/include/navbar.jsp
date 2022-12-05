@@ -27,10 +27,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
              <ul class="navbar-nav">
                 <li class="nav-item">
-                   <a class="nav-link <%= thisPage.equals("play") ? "active" : "" %>" href="${pageContext.request.contextPath }/private/game.jsp">게임</a>
+                   <a class="nav-link <%= thisPage.equals("play") ? "active" : "" %>" href="${pageContext.request.contextPath }/game/index.html">게임</a>
                 </li>
                 <li class="nav-item">
-                   <a class="nav-link <%= thisPage.equals("cafe") ? "active" : "" %>" href="${pageContext.request.contextPath }/cafe/list.jsp">글목록보기</a>
+                   <a class="nav-link <%= thisPage.equals("cafe") ? "active" : "" %>" href="${pageContext.request.contextPath }/cafe/list.jsp">글 목록보기</a>
                 </li>
                 
              </ul>
